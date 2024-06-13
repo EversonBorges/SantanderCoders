@@ -1,0 +1,56 @@
+cat <nome arquivo> -> Mostra conteudos arquivos (ex: cat /etc/issue  Ubuntu 22.04.4 LTS \n \l)
+pwd -> mostra o diretorio atual
+whoami -> mostra o usuário logado
+. -> referencia o diretorio atual
+
+cd  ~ -> vai para home 
+cd - -> vai para o diretorio anterior 
+ls -l -> mostra em lista 
+ls --help -> mostra parametros do comando serve para todos comandos
+ls <nomediretorio> -> mostra os dados do diretorio
+
+touch <nomeArquivo> -> cria arquivo
+mkdir -p -> cria arvore de diretorios (ex:  mkdir -p dir01/dir02/dir03)
+tree -> mostra os conteudos internos do diretorio 
+mv <nomeArquivo> <diretorio> -> move para outro lugar
+cp <nomeArquivo> <diretorio> -> Copia arquivo para outro lugar
+mv <nomeArquivo> <novoNomeArquivo> -> renomeia o arquivo
+rm <nomeArquivo> -> remove arquivo
+rm -r <nomeDiretorio> -> apaga todo o diretorio
+
+sudo apt search <texto>-> procura por programas baseados no texto
+sudo apt remove <program> -> remove um programa 
+
+Editores 
+VIM
+    I -> entra em edição
+    :w -> salva 
+    :q  -> sair
+    yy -> Copia
+    p -> cola
+    dd -> recorta
+    u -> desfaz a ultima ação
+    ctrl + r -> refaz a ultima ação
+    /<termo> -> pesquisa dentro do arquivo se teclar n ele navega pelos dados pesquisados
+    :q! -> sair sem salvar 
+
+Compactar arquivos
+    tar -cvf <nomeArquivoSaida>.tar <especificarQuaisArquivos> -> Compactar (-cvf - Compactar, mostrar o processo e dar um nome ao arquivo) 
+            se passar * pega todos os aqruivos do diretorio
+    tar -xvf <nomeArquivoDescompactar>.tar -> descompactar (-xvf - descompactar, mostrar o processo e informar o arquivo)
+    tar -cvzf <nomeArquivoSaida>.tar.gz -> Comprime tb com o Gzip, especifica qual algoritmo
+    tar -xvzf <nomeArquivoDescompactar>.tar.gz -> descompactar
+
+Shell 
+    ./script.sh -> executar um script
+    sleep 1 -> adiciona 1 segundo para a proxima execução
+    segundos="$1" -> declaração de recebimento de parametros,para usar utiliza $segundos
+
+Permissões
+     chmod +x <nomeArquivo> -> dápermissão de executar para todos os usuários
+
+Busca de arquivos
+    find <diretorioInicialBusca> -name "<nomeArquivo>" -> busca arquivo
+        se informar o parametro -type f ele vai saber que é um arquivo e não um diretorio
+    find / -mtime <qtdDias> -> busca arquivo que foram alterados dentro dos dias informados
+    find / -size +<tamanho>M -> busca arquivo com o tamanho maior que o valor informado

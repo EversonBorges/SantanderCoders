@@ -1,0 +1,7 @@
+docker run -it --name <name container>  -p 8889:8889 <name image> -> cria um container apartir de uma imagem
+docker build -t my-app . -> Cria o build do Dockerfile
+
+docker-compose up -d -> Inicia os containers
+docker-compose logs -> Verifica o estado dos containers e msgs
+docker-compose kill -> para a execução de todos os containers
+docker-compose rm -f -> remove containers

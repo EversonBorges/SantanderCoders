@@ -1,0 +1,8 @@
+Principais web Servers
+Apache
+Nginx
+IIS
+
+Bancos de dados 
+Relacionais e não Relacionais
+Cliente servidor

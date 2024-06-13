@@ -1,0 +1,10 @@
+Curso git ADA
+
+git config --global user.name "borges"
+git config --global user.email borges@email.com
+
+git diff -> verifica as alterações no arquivo
+git diff --staged -> verifica as alterações no arquivo no staged
+git log -> Mostra historicos das alterações no commit
+git remote -> mostra as branchs remotas
+git fetch -> Tras as alterações mas não aplica no código

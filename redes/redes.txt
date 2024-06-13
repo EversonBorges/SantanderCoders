@@ -1,0 +1,32 @@
+Modelo OSI 7 camadas (Segmento)
+    *Aplicação
+    *Apresentação
+    *Sessão
+    *Transporte - TCP (requer resposta do envio) - UDP (Não requer resposta do envio)
+    *Rede (Roteador)
+    *Enlace
+    *Fisica
+
+Modelo TCP/IP 4 camadas
+    *Aplicação
+    *Transporte
+    *Internet
+    *Acesso a Rede
+
+IPV4 e IPV6
+    -IPV4 32 bits divido em 8 octetos
+        bit = pulso eletrico 0 false e 1 true
+    -IPV6 128 dividio em 16 pares
+
+Calculo de subredes
+
+Principais comandos
+    ipconfig 
+    ipconfig /flushdns  limpar cache DNS
+    nslookup google.com
+    tracert google.com
+    route print
+    netstat
+
+Wireless
+    

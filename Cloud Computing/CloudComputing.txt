@@ -1,0 +1,11 @@
+Modelos IaaS, PaaS, SaaS e Serverless
+
+Modelo on premise -> Estrutura toda é do cleinte 
+Modelo em nuvem -> Estrutura é toda do fornecedor
+
+regioes AWS -> Locais fisicos dos servidores
+Zona de disponibilidade -> Toda a infra disponivel
+
+Tipos  de Instancia AWS - EC2
+
+    

@@ -1,0 +1,16 @@
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfplan
+
+# Arquivos de configuração de autenticação do Terraform
+terraform.tfvars
+
+# Arquivos de configuração do provider
+.terraform/
+
+# Arquivos de log e arquivos temporários
+*.log
+*.tfout
+*.swp
